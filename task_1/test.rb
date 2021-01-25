@@ -1,6 +1,6 @@
 require_relative 'message'
 
-print "Given message body: "
+print 'Given message body: '
 body = gets
 
 message = Message.new(body)
